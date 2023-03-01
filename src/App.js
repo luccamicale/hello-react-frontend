@@ -1,10 +1,9 @@
-import './App.css';
+import React from 'react';
+import Greeting from './pages/Greetings';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hola Marcos</h1>
-    </div>
+    <Greeting />
   );
 }
 
